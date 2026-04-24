@@ -1,7 +1,7 @@
-package com.ecom;
+package com.ecom.repository;
 
+import com.ecom.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
