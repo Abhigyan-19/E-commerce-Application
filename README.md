@@ -227,9 +227,9 @@ Clean code	Separation of concerns
 POST /api/users
 
 {
-  "firstName": "Rinju",
-  "lastName": "Mukherjee",
-  "email": "rinju@email.com",
+  "firstName": "ABC",
+  "lastName": "DEF",
+  "email": "user@email.com",
   "phone": "1234567890",
   "address": {
     "street": "ABC Road",
@@ -249,8 +249,8 @@ Response:
 [
   {
     "id": 1,
-    "firstName": "Rinju",
-    "lastName": "Mukherjee"
+    "firstName": "ABC",
+    "lastName": "DEF"
   }
 ]
 🚀 FUTURE IMPROVEMENTS
